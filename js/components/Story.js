@@ -23,8 +23,7 @@ var Story = React.createClass({
 				</ul>
 				<div style = {containerStyle}>
 					<img src = "../imgs/profilepic.jpg" style = {profileStyle}/>
-					<p style = {paragraphStyle}>Here’s what most of you are here for, yet I find it to be the most dull section.</p>
-					<p style = {paragraphStyle}>My name is Aaron Yih. I’m studying cognitive science at UCLA, but <span style ={spanStyle}>my passion</span> lies in creating beautiful things. Right now, this desire <span style ={spanStyle}>manifests itself in 3 ways:</span> relationships, designing, and writing. <span style ={spanStyle}>Relationships</span> are the most important things in my life, and I’ll often pick up a project just because of the people working on that thing. <span style ={spanStyle}>Designing</span> is a broad category, but that’s because includes pretty much anything you can think of—<span style ={spanStyle}>UI, websites, and logos.</span> If you want something designed, send me an email, <span style ={spanStyle}>and</span> we’ll talk. Writing is one of the purest ways to communicate with other people. I love <span style ={spanStyle}>“making my words behave,”</span> but sometimes they don’t. Send me feedback on my posts or other content that you find interesting. </p>
+					<p style = {paragraphStyle}>My name is Aaron Yih. I’m studying cognitive science at UCLA, but <span style ={spanStyle}>my passion</span> lies in creating beautiful things. Right now, this desire <span style ={spanStyle}>manifests itself in 3 ways:</span> relationships, designing, and writing. <span style ={spanStyle}>Relationships</span> are the most important things in my life, and I’ll often pick up a project just because of the people working on that thing. <span style ={spanStyle}>Designing</span> includes mostly <span style ={spanStyle}>mobile apps, websites, and logos</span>. If you want something designed, send me an email, <span style ={spanStyle}>and</span> we’ll talk. <span style ={spanStyle}>Writing</span> is one of the purest ways to communicate with other people. I love “making my words behave,” but sometimes they don’t, so I’m open to feedback on my posts. Also looking for content from elsewhere that <em>you</em> find interesting. </p>
 				</div>
 			</div>
 		);
@@ -68,7 +67,7 @@ var containerStyle={
 	whiteSpace: "normal",
 	marginLeft: "40px",
 	position:"relative",
-	top: "4vh",
+	bottom: "3vh",
 	left: "5vw"
 };
 var paragraphStyle={

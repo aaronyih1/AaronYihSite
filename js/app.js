@@ -103,7 +103,7 @@ var Home = React.createClass({
           <li><Link to="story" style = {linkStyle}><a>story</a></Link></li>
           <li><Link to="philosophy" style = {linkStyle}><a>philosophy</a></Link></li>
           <li><Link to="work" style = {linkStyle}><a>work</a></Link></li>
-          <li><a href="http://www.aaronyih.com/blog/">blog</a></li>
+          <li><a href="http://www.aaronyih.com/blog/" target="_blank">blog</a></li>
         </ul>
       </div>
     );

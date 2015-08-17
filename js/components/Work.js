@@ -21,7 +21,7 @@ var Work = React.createClass({
 					<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/">blog</a></li>
 					<RouteHandler/>
 				</ul>
-				<p style = {paragraphStyle}><span style ={spanStyle}>I</span> have an obsession with humanity. There, I said it. I find humanity’s unique ability to <span style ={spanStyle}>find beauty</span> in the world around us particularly admirable. We do not needfully consume, ignoring the splendor of all things created and not. We spend days outside, enjoying nature’s indifferent beauty, and we buy products that inspire, <span style ={spanStyle}>in</span> us, a sensation of <span style ={spanStyle}>awe and attraction.</span> Here’s the beauty that I’ve put forth into the world:</p>
+				<p style = {paragraphStyle}><span style ={spanStyle}>I</span> have an obsession with humanity. There, I said it. I find humanity’s unique ability to <span style ={spanStyle}>find beauty</span> in the world around us particularly admirable. We do not needfully consume, ignoring the splendor of all things created and not. We spend days outside, enjoying nature’s indifferent allure, and we buy products that inspire, <span style ={spanStyle}>in</span> us, a sensation of <span style ={spanStyle}>awe and attraction.</span> Here’s just some of the beauty that I’ve put forth into the world:</p>
 				<table style = {tableStyle}>
 					<tr style={rowStyle}>
 						<td><a href='http://www.tupleapp.com'><img style = {projectLogosStyle} src='../imgs/tuple.png'/></a></td>
@@ -29,7 +29,7 @@ var Work = React.createClass({
 					</tr>
 					<tr>
 						<td><a href='http://www.gofindthedream.com'><img style = {projectLogosStyle} src='../imgs/gofindthedream.png' /></a></td>
-						<td><a href='http://www.gofindthedream.com'><h1 style = {projectTitleStyle}>gofindthedream.com</h1><p style = {projectDescriptionStyle}>a webstie that helps people reach their their dreams with the click of a button.</p></a></td>
+						<td><a href='http://www.gofindthedream.com'><h1 style = {projectTitleStyle}>gofindthedream.com</h1><p style = {projectDescriptionStyle}>a website that helps people reach their their dreams with the click of a button.</p></a></td>
 					</tr>
 					<tr>
 						<td><a href='http://www.startruntest.com'><img style = {projectLogosStyle} src='../imgs/peek.png'/></a></td>
