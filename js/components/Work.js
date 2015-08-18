@@ -24,16 +24,16 @@ var Work = React.createClass({
 				<p style = {paragraphStyle}><span style ={spanStyle}>I</span> have an obsession with humanity. There, I said it. Particularly, I find humanity’s unique ability to <span style ={spanStyle}>find beauty</span> in the world around us admirable. We do not needfully consume, ignoring the splendor of all things created and not. We spend days outside, enjoying nature’s indifferent allure, and we buy products that inspire, <span style ={spanStyle}>in</span> us, a sensation of <span style ={spanStyle}>awe and attraction.</span> Here’s just some of the beauty that I’ve put forth into the world:</p>
 				<table style = {tableStyle}>
 					<tr style={rowStyle}>
-						<td><a href='http://www.tupleapp.com'><img style = {projectLogosStyle} src='../imgs/tuple.png'/></a></td>
-						<td style={colStyle}><a href='http://www.tupleapp.com'><h1 style = {projectTitleStyle}>tuple</h1></a><p id = 'test' style = {projectDescriptionStyle}>an iOS app that helps you meet your friends of friends.</p></td>
+						<td><a href='http://www.tupleapp.com' target = "_blank"><img style = {projectLogosStyle} src='../imgs/tuple.png'/></a></td>
+						<td style={colStyle}><a href='http://www.tupleapp.com' target = "_blank"><h1 style = {projectTitleStyle}>tuple</h1></a><p id = 'test' style = {projectDescriptionStyle}>an iOS app that helps you meet your friends of friends.</p></td>
 					</tr>
 					<tr>
-						<td><a href='http://www.gofindthedream.com'><img style = {projectLogosStyle} src='../imgs/gofindthedream.png' /></a></td>
-						<td><a href='http://www.gofindthedream.com'><h1 style = {projectTitleStyle}>gofindthedream.com</h1><p style = {projectDescriptionStyle}>a website that helps people reach their their dreams with the click of a button.</p></a></td>
+						<td><a href='http://www.gofindthedream.com' target = "_blank"><img style = {projectLogosStyle} src='../imgs/gofindthedream.png' /></a></td>
+						<td><a href='http://www.gofindthedream.com' target = "_blank"><h1 style = {projectTitleStyle}>gofindthedream.com</h1><p style = {projectDescriptionStyle}>a website that helps people reach their their dreams with the click of a button.</p></a></td>
 					</tr>
 					<tr>
-						<td><a href='http://www.startruntest.com'><img style = {projectLogosStyle} src='../imgs/peek.png'/></a></td>
-						<td><a href='http://www.startruntest.com'><h1 style = {projectTitleStyle}>peek</h1></a><p style = {projectDescriptionStyle}>an iOS app that let’s you peek into your role models’ schedules, so you can live like they do.</p></td>
+						<td><a href='http://www.startruntest.com' target = "_blank"><img style = {projectLogosStyle} src='../imgs/peek.png'/></a></td>
+						<td><a href='http://www.startruntest.com' target = "_blank"><h1 style = {projectTitleStyle}>peek</h1></a><p style = {projectDescriptionStyle}>an iOS app that let’s you peek into your role models’ schedules, so you can live like they do.</p></td>
 					</tr>
 				</table>
 			</div>
