@@ -22,9 +22,9 @@ let Philosophy = React.createClass({
     			<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/">blog</a></li>
     		</ul>
     		<div style = {containerStyle}>
-    			<p style = {paragraphStyle}>Important people <span style ={spanStyle}>make</span> a positive impact on others. They do it on a daily basis with the people they know, and sometimes they figure out a way to affect people they don’t know. I’m searching for ways to make a <span style ={spanStyle}>positive impact</span> on as many people’s lives as possible, and I hope to have a bit of fun along the way<span style ={spanStyle}>.</span></p>
+    			<p style = {paragraphStyle}>Important people <span style ={spanStyle}>make</span> a positive impact on others. They do it on a daily basis with the people they know, and sometimes they figure out a way to affect people they don’t know. I’m searching for ways to make a <span style ={spanStyle}>positive impact</span> in as many people’s lives as possible, and I hope to have a bit of fun along the way<span style ={spanStyle}>.</span></p>
     			<p style = {paragraphStyle}>Expression is the cornerstone of <span style ={spanStyle}>humanity</span>, and it <span style ={spanStyle}>can</span> take many unique forms. Writing, drawing, cooking, painting, singing, and dancing are all forms of expression, and there are many more. As humans, we should <span style ={spanStyle}>find</span> our precious form of <span style ={spanStyle}>expression</span> and let it go where it pleases<span style ={spanStyle}>.</span></p>
-    			<p style = {paragraphStyle}>Balance is cliché. I don’t mean the word; I mean the concept. My life is the result of meticulous balance between aestheticism and functionality, happiness and achievement, and sociability and introspection. Most of us deal with these conflicts, and the equilibrium we reach between these two extremes is what makes us different from one another.</p>
+    			<p style = {paragraphStyle}>Balance is cliché. I don’t mean the word; I mean the concept. My life is the result of meticulous balance between happiness and achievement, aestheticism and functionality, and sociability and introspection. Most of us deal with these conflicts, and the equilibrium we reach between these two extremes is what makes us different from one another.</p>
     			<p style = {paragraphStyle}>Throughout our lives, we find expression and balance, and so do the designs that I create.</p>
     		</div>
     	</div>
@@ -65,7 +65,7 @@ var containerStyle={
 	whiteSpace: "normal",
 	marginLeft: "40px",
 	position:"relative",
-	top: "4vh",
+	top: "2vh",
 	left: "5vw"
 };
 var paragraphStyle={
