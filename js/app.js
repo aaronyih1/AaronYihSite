@@ -85,11 +85,11 @@ var Chairn = React.createClass({
   render: function(){
     return(
       <div id = "chairn">
-        <img id = "beam1" src = "imgs/beam1.svg" />
-        <img id = "rock" src = "imgs/rock.svg" />
-        <img id = "beam2" src = "imgs/beam2.svg" />
-        <img id = "triangle" src = "imgs/triangle.svg" />
-        <img id = "shadow" src = "imgs/shadow.png" />
+        <img id = "beam1" src = "../imgs/beam1.svg" />
+        <img id = "rock" src = "../imgs/rock.svg" />
+        <img id = "beam2" src = "../imgs/beam2.svg" />
+        <img id = "triangle" src = "../imgs/triangle.svg" />
+        <img id = "shadow" src = "../imgs/shadow.png" />
       </div>
     );
   }
