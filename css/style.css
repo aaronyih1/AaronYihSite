@@ -8,6 +8,7 @@ html{
 	font-family: "avenir";
 	font-weight: 100;
 	white-space: nowrap;
+	cursor:'pointer';
 }
 #test:hover{
 	color:black;
