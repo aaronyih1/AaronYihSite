@@ -16,9 +16,9 @@ var Story = React.createClass({
 					<img style = {verticalLineStyle} src="pix.gif" />
 				</div>
 				<ul style={sectionNavStyle}>
-					<li style={sectionNavMenuStyle}><Link to="philosophy">philosophy</Link></li>
-					<li style={sectionNavMenuStyle}><Link to="work">work</Link></li>
-					<li style={sectionNavMenuStyle}><a href="http://www.aaronyih.com/blog/">blog</a></li>
+					<li style={sectionNavMenuStyle}><Link to="philosophy"><span>philosophy</span></Link></li>
+					<li style={sectionNavMenuStyle}><Link to="work"><span>work</span></Link></li>
+					<li style={sectionNavMenuStyle}><a href="http://www.aaronyih.com/blog/"><span>blog</span></a></li>
 					<RouteHandler/>
 				</ul>
 				<div style = {containerStyle}>
@@ -95,15 +95,5 @@ var sectionNavMenuStyle={
 	marginRight:"30px",
 	fontSize: "13pt"
 };
-var routes = (  
-  <Route handler={App}>
-    <Route name="story" path="/story" handler={StoryHandler}>
-    	<Route name="philosophy" path="/philosophy" handler={PhilosophyHandler}/>
-    	<Route name="work" path="/work" handler={WorkHandler}/>
-    </Route>
-
-    <Route name="philosophy" path="/philosophy" handler={PhilosophyHandler}/>
-  </Route>
-);
 
 export default Story;

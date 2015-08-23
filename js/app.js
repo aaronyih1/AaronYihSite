@@ -7,17 +7,17 @@ import PhilosophyHandler from './components/Philosophy.js';
 import WorkHandler from './components/Work.js';
 import BlogHandler from './components/Blog.js';
 import ContactHandler from './components/Contact.js';
+import HomeHandler from './components/Home.js';
 
 var App = React.createClass({  
   render() {
     return (
       <div>
           <ul style ={navigationStyle}>
-            <li style={contactStyle}><Link to="contact" style = {linkStyleNav}><a>contact</a></Link></li>
-            <li style={contactStyle}><Link to="app" style = {linkStyleNav}><a>home</a></Link></li>
+            <li style={contactStyle}><a><Link to="contact" style = {linkStyleNav}><span>contact</span></Link></a></li>
+            <li style={contactStyle}><a><Link to="app" style = {linkStyleNav}><span>home</span></Link></a></li>
             <RouteHandler/>
           </ul>
-          <Home/>
       </div>
     );
   }
@@ -81,51 +81,9 @@ var sectionNavMenuStyle={
   marginRight:"30px",
   fontSize: "13pt"
 };
-var Chairn = React.createClass({
-  render: function(){
-    return(
-      <div id = "chairn">
-        <img id = "beam1" src = "../imgs/beam1.svg" />
-        <img id = "rock" src = "../imgs/rock.svg" />
-        <img id = "beam2" src = "../imgs/beam2.svg" />
-        <img id = "triangle" src = "../imgs/triangle.svg" />
-        <img id = "shadow" src = "../imgs/shadow.png" />
-      </div>
-    );
-  }
-});
-var Home = React.createClass({
-  render: function(){
-    return(
-      <div> 
-        <Chairn />
-        <ul style = {MenuStyle}>
-          <li><Link to="story" style = {linkStyle}><a>story</a></Link></li>
-          <li><Link to="philosophy" style = {linkStyle}><a>philosophy</a></Link></li>
-          <li><Link to="work" style = {linkStyle}><a>work</a></Link></li>
-          <li><a href="http://www.aaronyih.com/blog/" target="_blank">blog</a></li>
-        </ul>
-      </div>
-    );
-  }
-});
-var linkStyle = {
-  textDecoration:'none',
-  color: 'black'
-};
-var MenuStyle = {
-  display: 'block',
-  position: 'relative',
-  left: '710px',
-  top: '-720px',
-  listStyleType: 'none',
-  fontSize: '21pt',
-  fontFamily: 'avenir',
-  fontWeight: '100',
-  width: '200'
-};
 var routes = (  
   <Route name="app" path="/" handler={App}>
+    <DefaultRoute handler={HomeHandler}/>
     <Route name = "contact" path="/contact" handler={ContactHandler}/>
     <Route name="story" path="/story" handler={StoryHandler}/>
     <Route name="philosophy" path="/philosophy" handler={PhilosophyHandler}/>

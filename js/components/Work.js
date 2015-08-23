@@ -16,9 +16,9 @@ var Work = React.createClass({
 					<img style = {verticalLineStyle} src="pix.gif" />
 				</div>
 				<ul style={sectionNavStyle}>
-					<li style={sectionNavMenuStyle}><Link to="story">story</Link></li>
-					<li style={sectionNavMenuStyle}><Link to="philosophy">philosophy</Link></li>
-					<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/">blog</a></li>
+					<li style={sectionNavMenuStyle}><Link to="story"><span>story</span></Link></li>
+					<li style={sectionNavMenuStyle}><Link to="philosophy"><span>philosophy</span></Link></li>
+					<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/"><span>blog</span></a></li>
 					<RouteHandler/>
 				</ul>
 				<p style = {paragraphStyle}><span style ={spanStyle}>I</span> have an obsession with humanity. There, I said it. Particularly, I find humanity’s unique ability to <span style ={spanStyle}>find beauty</span> in the world around us admirable. We do not needfully consume, ignoring the splendor of all things created and not. We spend days outside, enjoying nature’s indifferent allure, and we buy products that inspire, <span style ={spanStyle}>in</span> us, a sensation of <span style ={spanStyle}>awe and attraction.</span> Here’s just some of the beauty that I’ve put forth into the world:</p>

@@ -4,11 +4,10 @@
 	position: relative;
 }
 html{
-	overflow:hidden;
+	overflow: hidden;
 	font-family: "avenir";
 	font-weight: 100;
 	white-space: nowrap;
-	cursor:'pointer';
 }
 #test:hover{
 	color:black;
@@ -23,7 +22,7 @@ a{
 li{
 	text-decoration: none;
 }
-a:hover{
+span:hover{
 	color: #cb0000;
 }
 b{

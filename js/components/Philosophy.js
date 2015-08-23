@@ -17,9 +17,9 @@ let Philosophy = React.createClass({
     			<img style = {verticalLineStyle} src="pix.gif" />
     		</div>
     		<ul style={sectionNavStyle}>
-    			<li style={sectionNavMenuStyle}><Link to='story'>story</Link></li>
-    			<li style={sectionNavMenuStyle}><Link to='work'>work</Link></li>
-    			<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/">blog</a></li>
+    			<li style={sectionNavMenuStyle}><Link to='story'><span>story</span></Link></li>
+    			<li style={sectionNavMenuStyle}><Link to='work'><span>work</span></Link></li>
+    			<li style={sectionNavMenuStyle}><a href = "http://www.aaronyih.com/blog/"><span>blog</span></a></li>
     		</ul>
     		<div style = {containerStyle}>
     			<p style = {paragraphStyle}>Important people <span style ={spanStyle}>make</span> a positive impact on others. They do it on a daily basis with the people they know, and sometimes they figure out a way to affect people they don’t know. I’m searching for ways to make a <span style ={spanStyle}>positive impact</span> in as many people’s lives as possible, and I hope to have a bit of fun along the way<span style ={spanStyle}>.</span></p>
