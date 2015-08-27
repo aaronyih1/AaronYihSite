@@ -19,9 +19,9 @@ var Home = React.createClass({
 			 	 	<img id = "shadow" src = "../../imgs/shadow.png" />
 				</div>
 				<ul style = {MenuStyle}>
-				  <li><a><Link to="story" style = {linkStyle}><span>story</span></Link></a></li>
-				  <li><a><Link to="philosophy" style = {linkStyle}><span>philosophy</span></Link></a></li>
-				  <li><a><Link to="work" style = {linkStyle}><span>work</span></Link></a></li>
+				  <li><a><Link to="story"><span>story</span></Link></a></li>
+				  <li><a><Link to="philosophy"><span>philosophy</span></Link></a></li>
+				  <li><a><Link to="work"><span>work</span></Link></a></li>
 				  <li><a href="http://www.aaronyih.com/blog/" target="_blank"><span>blog</span></a></li>
 				</ul>
 			 </div>

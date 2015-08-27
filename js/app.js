@@ -14,18 +14,14 @@ var App = React.createClass({
     return (
       <div>
           <ul style ={navigationStyle}>
-            <li style={contactStyle}><a><Link to="contact" style = {linkStyleNav}><span>contact</span></Link></a></li>
-            <li style={contactStyle}><a><Link to="app" style = {linkStyleNav}><span>home</span></Link></a></li>
+            <li style={contactStyle}><a><Link to="contact"><span>contact</span></Link></a></li>
+            <li style={contactStyle}><a><Link to="app"><span>home</span></Link></a></li>
             <RouteHandler/>
           </ul>
       </div>
     );
   }
 });
-var linkStyleNav ={
-  textDecoration:'none',
-  color: 'black'
-};
 var verticalLineContainerStyle={
   display:"inline-block",
   marginLeft: "5vw"

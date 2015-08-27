@@ -16,10 +16,10 @@ var Contact = React.createClass({
 				</div>
 				<ul style={waysToConenctStyle}>
           <li id = "test"><h1 style={titleStyle}>aaron yih</h1></li>
-          <li><a onClick={this.copyToClipboard}>aaron.yih@ucla.edu</a></li>
-          <li> < a href='https://www.linkedin.com/in/aaronyih' target = "_blank">let&#39;s connect</a></li>
-          <li><a href = "https://twitter.com/aaronyih1" target="_blank">follow me</a></li>
-          <li>< a href = "https://www.facebook.com/aaron.yih.1" target = "_blank">like me</a></li>
+          <li><a onClick={this.copyToClipboard}><span>aaron.yih@ucla.edu</span></a></li>
+          <li> < a href='https://www.linkedin.com/in/aaronyih' target = "_blank"><span>let&#39;s connect</span></a></li>
+          <li><a href = "https://twitter.com/aaronyih1" target="_blank"><span>follow me</span></a></li>
+          <li>< a href = "https://www.facebook.com/aaron.yih.1" target = "_blank"><span>like me</span></a></li>
         </ul>
 			</div>
 		);

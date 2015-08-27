@@ -21,7 +21,7 @@ var Story = React.createClass({
 					<li style={sectionNavMenuStyle}><a href="http://www.aaronyih.com/blog/"><span>blog</span></a></li>
 					<RouteHandler/>
 				</ul>
-				<div style = {containerStyle}>
+				<div style = {containerStyle} className="containerStyle">
 					<img src = "../imgs/profilepic.jpg" style = {profileStyle}/>
 					<p style = {paragraphStyle}>My name is Aaron Yih. I’m studying cognitive science at UCLA, but <span style ={spanStyle}>my passion</span> lies in creating beautiful things. Right now, this desire <span style ={spanStyle}>manifests itself in 3 ways:</span> relationships, designing, and writing. <span style ={spanStyle}>Relationships</span> are the most important things in my life, and I’ll often pick up a project just because of the people working on that thing. <span style ={spanStyle}>Designing</span> includes mostly <span style ={spanStyle}>mobile apps, websites, and logos</span>. If you want something designed, send me an email, <span style ={spanStyle}>and</span> we’ll talk. <span style ={spanStyle}>Writing</span> is one of the purest ways to communicate with other people. I love “making my words behave,” but sometimes they don’t, so I’m open to feedback on my posts. Also looking for content from elsewhere that <em>you</em> find interesting. </p>
 				</div>
